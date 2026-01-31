@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Piosenka dla Judytki</title>
+  <style>
+    body { 
+      font-family: sans-serif; 
+      text-align: center; 
+      padding: 50px; 
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    /* Obrazek okładki */
+    .cover {
+      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      margin-bottom: 20px; /* odstęp między okładką a playerem */
+    }
+
+    /* Player audio */
+    audio {
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Piosenka dla Judytki</h1>
+
+  <!-- Obrazek okładki -->
+  <img src="okladka.jpg" alt="Okładka piosenki" class="cover">
+
+  <!-- Player audio pod okładką -->
+  <audio controls>
+    <source src="piosenka.mp3" type="audio/mpeg">
+    Twoja przeglądarka nie wspiera odtwarzacza audio.
+  </audio>
+</body>
+</html>
